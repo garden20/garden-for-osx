@@ -41,7 +41,7 @@
 	<key>DTXcodeBuild</key>
 	<string>4D199</string>
 	<key>HomePage</key>
-	<string>http://127.0.0.1:5984/dashboard/_design/dashboard/_rewrite/</string>
+	<string>http://127.0.0.1:5984/_utils/dashboard.html</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.business</string>
 	<key>LSUIElement</key>
