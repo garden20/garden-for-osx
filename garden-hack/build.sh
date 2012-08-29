@@ -13,4 +13,7 @@ cp assets/CouchDb-Status.png dist/Garden.app/Contents/Resources/CouchDb-Status.p
 cp assets/ensure_full_commit.sh dist/Garden.app/Contents/Resources/ensure_full_commit.sh
 cp assets/local.ini dist/Garden.app/Contents/Resources/couchdbx-core/etc/couchdb/local.ini
 cp -r temp/www dist/Garden.app/Contents/Resources/couchdbx-core/share/couchdb/
-
+ditto -ck --rsrc --sequesterRsrc dist temp/garden_for_osx.zip
+#zip -r garden_for_osx.zip Garden.app
+rm -r dist/Garden.app
+mv temp/garden_for_osx.zip dist/garden_for_osx.zip
